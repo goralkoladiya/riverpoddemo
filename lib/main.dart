@@ -5,7 +5,7 @@ import 'package:riverpoddemo/Demo.dart';
 ProviderScope` is a widget that stores the state of all the providers that we create
  */
 void main() {
-  // wrap the entire app with a ProviderScope so that widgets
+  // wrap the entire app with a Provid erScope so that widgets
   // will be able to read providers
   runApp(ProviderScope(
     child: MyApp(),
