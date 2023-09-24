@@ -27,7 +27,6 @@ class _contactbookState extends State<contactbook> {
             var box = Hive.box('contactbook');
             Contact c=Contact(name,phone,"");
             box.add(c);
-            box.
           }, child: Text("Add")),
           ElevatedButton(onPressed: () {
             Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => getcontacts(),));
